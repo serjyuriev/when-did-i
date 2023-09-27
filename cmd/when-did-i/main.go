@@ -17,7 +17,7 @@ func main() {
 
 	srv, err := whendidi.NewServer(ctx)
 	if err != nil {
-		log.Println("unable to initialize server, aborting")
+		log.Println("Unable to initialize server, aborting")
 		return
 	}
 

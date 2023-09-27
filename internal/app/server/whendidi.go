@@ -18,7 +18,7 @@ func NewServer(ctx context.Context) (*Server, error) {
 
 	ctrl, err := controller.NewController(ctx)
 	if err != nil {
-		log.Println("unable to initialize controller")
+		log.Println("Unable to initialize controller")
 		return nil, err
 	}
 
